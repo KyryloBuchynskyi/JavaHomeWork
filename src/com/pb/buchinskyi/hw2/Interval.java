@@ -1,14 +1,12 @@
 package com.pb.buchinskyi.hw2;
 
-import com.sun.xml.internal.ws.commons.xmlutil.Converter;
-
 import java.util.Scanner;
 
 public class Interval {
     public static void main(String[] args) {
         int operand1 = 0;// переменные для ввода чисел
         Scanner in = new Scanner(System.in);  // Класс для работы с консолью
-        boolean wrongIn = false;  // Выделываюсь. Хочу, что бы не вылетало при вводе буквы
+        boolean wrongIn;  // Выделываюсь. Хочу, что бы не вылетало при вводе буквы
 
         do {
             System.out.print("Введите число = ");
